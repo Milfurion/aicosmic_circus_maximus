@@ -9,7 +9,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "baths_task.md"
+        "baths_task.md",
+        "starting_code.md"
     ],
     "testFiles": [
         "test.ts"
