@@ -1,20 +1,16 @@
 {
-    "name": "Untitled",
+    "name": "Ai Cosmic Circus Maximus",
     "description": "",
     "dependencies": {
         "core": "*",
         "builder": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
         "baths_task.md",
         "starting_code.md"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "targetVersions": {
         "target": "1.7.21",
         "targetId": "minecraft"
