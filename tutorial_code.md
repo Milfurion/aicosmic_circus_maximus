@@ -15,7 +15,7 @@
 
 ## Step 1
 
-Program the agent to destroy the marked block. Move it to the right place and destroy the block to release the water. Use ||Agent Move|| and ||Agent Destroy||
+Program the agent to destroy the marked block. Move it to the right place and destroy the block to release the water. Use ``||AGENT MOVE||`` and ``||AGENT DESTROY||``
 
 ### ~ Hint
 
