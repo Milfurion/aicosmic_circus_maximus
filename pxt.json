@@ -8,7 +8,8 @@
     "files": [
         "README.md",
         "baths_task.md",
-        "starting_code.md"
+        "starting_code.md",
+        "tutorial_code.md"
     ],
     "testFiles": [],
     "targetVersions": {
