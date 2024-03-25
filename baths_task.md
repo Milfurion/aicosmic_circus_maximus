@@ -21,34 +21,16 @@ We need to automate the water level control system in the Bath of Caracalla. If 
 To check the water level, check if there is AIR BLOCK in a few blocks under the agent. Use ``||if||`` and ``||test for||``  for to do this. 
 
 ```  blocks
-if (blocks.testForBlock(AIR, positions.add(
-agent.getPosition(),
-pos(0, -9, 0)
-))) {
-    agent.destroy(FORWARD)
-}
-if (blocks.testForBlock(AIR, positions.add(
-agent.getPosition(),
-pos(0, -8, 0)
-))) {
-    agent.move(RIGHT, 2)
-    agent.destroy(FORWARD)
-}
-if (blocks.testForBlock(AIR, positions.add(
-agent.getPosition(),
-pos(0, -7, 0)
-))) {
-    agent.move(RIGHT, 3)
-    agent.destroy(FORWARD)
-}
-if (blocks.testForBlock(AIR, positions.add(
-agent.getPosition(),
-pos(0, -8, 0)
-))) {
-    agent.move(RIGHT, 2)
-    agent.destroy(FORWARD)
-}
-         
-})
+agent.destroy(FORWARD)
+agent.move(RIGHT, 2)
+agent.move(UP, 1)
+agent.destroy(FORWARD)
+agent.move(RIGHT, 3)
+agent.move(DOWN, 2)
+agent.destroy(FORWARD)
+agent.move(RIGHT, 2)
+agent.move(UP, 1)
+agent.destroy(FORWARD)
+
 ```
 
