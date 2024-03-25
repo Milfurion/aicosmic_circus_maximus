@@ -18,7 +18,7 @@
 We need to automate the water level control system in the Bath of Caracalla. If the water is too low, the agent must open a hole allowing the water to flow out and raise the level.
 
 ### ~ Hint 
-To check the water level, check if there is AIR BLOCK in a few blocks under the agent. Use ``||if||`` and ``||test for||``  for to do this. 
+Destroy all marked blocks in one go!
 
 ```  blocks
 agent.destroy(FORWARD)
