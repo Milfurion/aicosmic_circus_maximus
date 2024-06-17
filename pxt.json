@@ -24,7 +24,10 @@
 	"_locales/nl/tutorial_code.md",	
 	"other/baths_task_cr.md",
 	"other/starting_code_cr.md",
-	"other/tutorial_code_cr.md"		
+	"other/tutorial_code_cr.md",		
+	"other/baths_task_lt.md",
+	"other/starting_code_lt.md",
+	"other/tutorial_code_lt.md"
     ],
     "testFiles": [],
     "targetVersions": {
